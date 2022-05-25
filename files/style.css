@@ -1166,8 +1166,9 @@ p {
 
 #youtubekim{
     width:70%;
-    height: 350px;
-    border-radius: 5%;
+    height: 250px;
+    border-radius: 0%;
+    margin-bottom: 100px;
 }
 
 .reheight{
