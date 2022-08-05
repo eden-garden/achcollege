@@ -32,6 +32,7 @@
 .background-container {
 position: relative;
 margin: 0;
+margin-bottom: 30px;
 z-index: 0;
 display: flex;
 flex-direction: column;
@@ -43,7 +44,7 @@ padding: 0;
 
 /* Custom */
 #container1 {
-    height: 600px;
+    /* height: 600px; */
 }
 #container2 {
     height: 900px;
@@ -1182,4 +1183,48 @@ p {
 #howtocome{
     margin-top:0px;
     padding-top:0px;
+}
+
+.mt-50px{
+    margin-top:50px;
+}
+
+.width-80{
+    max-width: 80%;
+}
+
+.width-40{
+    max-width: 40%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.margin-auto{
+    margin:auto;
+}
+
+.width-auto{
+    width:auto!important;
+}
+
+.margin-20{
+    margin:20%!important;
+}
+
+.margin-top-100{
+    margin-top:100px!important;
+}
+@keyframes disappear{
+    from{
+        height: 200px;
+    }
+    to{
+        height: 0;
+    }
+}
+
+#invite{
+    animation: disappear 3s ease-in-out forwards;
 }
