@@ -1289,7 +1289,7 @@ p {
     100% { transform: rotate3d(0, 1, 0, 360deg); }
 }
 
-  .rotate{
+  .spinner{
     animation: spinner 4s ease-out infinite;
   }
 
