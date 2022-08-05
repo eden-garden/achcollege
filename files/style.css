@@ -1224,11 +1224,17 @@ p {
 .margin-30{
     margin:30%!important;
 }
+.margin-50{
+    margin:50%!important;
+}
 .margin-tb-10px
 {
     margin:10px 0px!important;
 }
-
+.margin-tb-25px
+{
+    margin:25px 0px!important;
+}
 .margin-top-20px
 {
     margin:20px 0px!important;
@@ -1255,7 +1261,7 @@ p {
 }
 
 #invite{
-    animation: disappear 4s ease-in-out forwards;
+    animation: disappear 2.0s ease-in-out forwards;
 }
 
 @keyframes blink-effect {
@@ -1275,16 +1281,16 @@ p {
 
   }
   @keyframes spinner {
-    0% { transform: rotate3d(1, 1, 1, 0deg); }
+    0% { transform: rotate3d(0, 1, 0, 0deg); }
     /* 25% { transform: rotate3d(1, 1, 1, 180deg); }
     50% { transform: rotate3d(1, 1, 1, 360deg); }
 
     75% { transform: rotate3d(1, 1, 1, 180deg); } */
-    100% { transform: rotate3d(1, 1, 1, 3600deg); }
+    100% { transform: rotate3d(0, 1, 0, 360deg); }
 }
 
   .rotate{
-    animation: spinner 40s ease-out infinite;
+    animation: spinner 4s ease-out infinite;
   }
 
   @keyframes big {
