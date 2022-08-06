@@ -100,17 +100,19 @@
 				<img class="margin-30 width-auto margin-tb-10px reveal" src="4-1.png" alt="4번">
 				<img class="width-120 margin-tb-10px margin-top-100px reveal big" src="산.png" alt="산">
 				<img class="margin-30 width-auto margin-tb-10px reveal" src="5.png" alt="5번">
-				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal flag" src="깃발.png" alt="깃발">
+				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal " src="depressed.png" alt="절규">
 
 				<img class="margin-30 width-auto margin-tb-25px reveal" src="6.png" alt="6번">
-				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal flag" src="깃발.png" alt="깃발">
+				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal " src="sun-shining.png" alt="해">
 
 				<img class="margin-30 width-auto margin-tb-25px reveal" src="7.png" alt="7번">
-				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal flag" src="깃발.png" alt="깃발">
+				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal" src="open-hands.png" alt="두손모아">
 
 				<img class="margin-30 width-auto margin-tb-25px reveal" src="8.png" alt="8번">
 				<img class="margin-30 width-auto margin-tb-25px margin-top-100px reveal spinner" src="물음표.png" alt="물음표">
 				<img class="margin-30 width-auto margin-tb-25px margin-top-20px reveal" src="9.png" alt="9번">
+				<img class="margin-30 width-auto margin-tb-25px  margin-top-100px reveal " src="invitation.png" alt="초대">
+
 				<img class="margin-30 width-auto margin-top-200px reveal" src="10.png" alt="10번">
 				<img class="width-90 reveal margin-top-100px" src="성경.png"/>
 
@@ -118,9 +120,11 @@
 				<img class="margin-top-200px width-80 reveal" src="오시는길.png"/>
 
 				<img class="margin-20 width-100 margin-tb-10px margin-top-100px reveal"  src="경북구미시.png" alt="경북구미시">
-				<img class="margin-20 width-100 margin-tb-10px reveal"  src="구미약도.png" alt="구미약도">
+				<div id="map" style="width:430px;height:400px;margin: 0;"></div>
+
 				<img class="margin-20 width-100 margin-tb-10px margin-top-100px reveal"  src="서울강동구.png" alt="서울강동구">
-				<img class="margin-20 width-100 margin-tb-10px reveal"  src="서울약도.png" alt="서울약도">
+				<div id="map2" style="width:430px;height:400px;margin: 0;"></div>
+
 				<img class="mt-50px width-40 " src="로고.png"/>
 			</div>
 			<div class="background-container" id="container1">
@@ -144,7 +148,26 @@
 				id="close-button" aria-label="Close" class="baguetteBox-button"><i class="fa fa-times"></i></button>
 		</div>
 
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=645d54b3c330a414097382091d0cd8c2"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(36.0734674, 128.3553755),
+			level: 3
+		};
 
+		var map = new kakao.maps.Map(container, options);
+	</script>
+		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=645d54b3c330a414097382091d0cd8c2"></script>
+		<script>
+			var container = document.getElementById('map2');
+			var options = {
+				center: new kakao.maps.LatLng(37.5397781, 127.1396829),
+				level: 3
+			};
+	
+			var map = new kakao.maps.Map(container, options);
+		</script>
 </body>
 
 </html>
