@@ -1253,6 +1253,10 @@ p {
     margin-bottom: 100px;
 }
 
+.mb-25px{
+    margin-bottom: 25px;
+}
+
 @keyframes disappear{
     from{
         height: 200px;
@@ -1336,6 +1340,6 @@ p {
     animation: flag 3s ease-in-out infinite;
   }
 
-.height-350px{
-    height: 350px;
+.height-500px{
+    height: 500px;
 }
