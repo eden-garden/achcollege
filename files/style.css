@@ -1188,6 +1188,9 @@ p {
     margin-top:50px;
 }
 
+.margin-0{
+    margin : 0;
+}
 .width-120{
     max-width: 120%;
 }
@@ -1259,7 +1262,7 @@ p {
 
 @keyframes disappear{
     from{
-        height: 200px;
+        height: 500px;
     }
     to{
         height: 0;
@@ -1267,7 +1270,7 @@ p {
 }
 
 #invite{
-    animation: disappear 2.0s ease-in-out forwards;
+    animation: disappear 3.0s ease-in-out forwards;
 }
 
 @keyframes blink-effect {
